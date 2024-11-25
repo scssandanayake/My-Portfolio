@@ -10,19 +10,19 @@ const links = [
   },
   {
     name: "Services",
-    path: "/servise",
+    path: "/services_page",
   },
   {
     name: "Resume",
-    path: "/resume",
+    path: "/resume_page",
   },
   {
     name: "Works",
-    path: "/work",
+    path: "/works_page",
   },
   {
     name: "Contact",
-    path: "/contact",
+    path: "/contact_page",
   },
 ];
 
