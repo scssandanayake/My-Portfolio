@@ -45,3 +45,4 @@ const Stairs = () => {
 };
 
 export default Stairs;
+//no errors in this file

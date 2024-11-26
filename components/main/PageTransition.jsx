@@ -23,3 +23,4 @@ const PageTransition = ({ children }) => {
 };
 
 export default PageTransition;
+//no errors in this file

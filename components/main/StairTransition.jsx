@@ -32,3 +32,4 @@ const StairTransition = () => {
 };
 
 export default StairTransition;
+//no any errors in this file
