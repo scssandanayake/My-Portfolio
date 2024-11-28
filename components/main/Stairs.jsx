@@ -35,7 +35,7 @@ const Stairs = () => {
               ease: "easeInOut",
               delay: reverseIndex(index) * 0.1,
             }}
-            style={{ backgroundColor: '#33f2af' }}
+            style={{ backgroundColor: 'white' }}
             className="h-full w-full bg-white relative"
           />
         );
@@ -46,3 +46,4 @@ const Stairs = () => {
 
 export default Stairs;
 //no errors in this file
+//backgroundColor: '#33f2af'
