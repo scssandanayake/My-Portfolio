@@ -1,10 +1,10 @@
 import { FiDownload } from "react-icons/fi";
 import { Button } from "@/components/ui/button";
-import AnimatedText from "@/components/main/AnimatedText";
 
 //page components
 import Social from "@/components/ui/Social";
 import Photo from "@/components/ui/Photo";
+import AnimatedText2 from "@/components/main/AnimatedText2";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
             <span className="text-xl ml-1">ML Developer.</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />
-              <AnimatedText />
+              <AnimatedText2 />
             </h1>
             <p className="max-w-[500px] mb-9 text-white/90">
               I'm a Machine Learning and Data Science Developer. I have

@@ -1,14 +1,15 @@
 "use client";
+
 import { TypeAnimation } from 'react-type-animation';
 import { useState, useEffect } from 'react';
 
-const AnimatedText = () => {
+const AnimatedText1 = () => {
   const [showAnimation, setShowAnimation] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAnimation(true);
-    }, 2000); // 2 second delay
+    }, 1300); // 2 second delay //or 2000 for double animation
 
     return () => clearTimeout(timer);
   }, []);
@@ -18,17 +19,21 @@ const AnimatedText = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Chamara Sandanayake.',
+        'Hello.',
         3000,
-        'DS Undergraduate.',
+        'Hola.',
+        3000,
+        'Bonjour.',
+        3000,
+        'Namaste.',
         3000,
       ]}
       wrapper="span"
       speed={20}
-      className="text-accent"
+      className="h1 mb-6"
       repeat={Infinity}
     />
   );
 };
 
-export default AnimatedText;
+export default AnimatedText1;
