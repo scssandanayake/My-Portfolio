@@ -19,8 +19,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={jetBrainsMono.variable}>
+    <html lang="en" className={jetBrainsMono.variable}>
+      <body>
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
@@ -28,3 +28,15 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+//export default function RootLayout({ children }) {
+  //return (
+    //<html lang="en" className={jetBrainsMono.variable} suppressHydrationWarning={true}>
+      //<body suppressHydrationWarning={true}>
+        //<Header />
+        //<StairTransition />
+        //<PageTransition>{children}</PageTransition>
+      //</body>
+    //</html>
+  //);
+//}

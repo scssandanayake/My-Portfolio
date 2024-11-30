@@ -10,7 +10,7 @@ const Photo = () => {
       opacity: 1, 
       y: 0,
       transition: {
-        delay: 2, // 2 seconds delay
+        delay: 3.1, // 2 seconds delay
         duration: 0.5
       }
     }
