@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Social from "@/components/ui/Social";
 import Photo from "@/components/ui/Photo";
 import AnimatedText2 from "@/components/main/AnimatedText2";
+import Stats from "@/components/ui/stats";
 
 const Home = () => {
   return (
@@ -15,14 +16,14 @@ const Home = () => {
       xl:pt-8 xl:pb-24"
         >
           {/* text */}
-          <div className="text-center xl:text-left">
-            <span className="text-xl ml-1">ML Developer.</span>
+          <div className="text-center xl:text-left order-2 xl:order-none">
+            <span className="text-xl ml-1">ML Engineer.</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />
               <AnimatedText2 />
             </h1>
             <p className="max-w-[500px] mb-9 text-white/90">
-              I'm a Machine Learning and Data Science Developer. I have
+              Passionate about Data Science and Machine Learning. I have
               experience in building machine learning models, data analysis, and
               data visualization.
             </p>
@@ -47,12 +48,13 @@ const Home = () => {
             </div>
           </div>
 
-          {/* image */}
-          <div>
+          {/* photo */}
+          <div className="order-1 xl:order-none mb-8 xl:mb-0">
             <Photo />
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 };

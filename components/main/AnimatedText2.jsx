@@ -19,13 +19,13 @@ const AnimatedText2 = () => {
   return (
     <TypeAnimation  //greeting types hello,hola,konichiwa...
       sequence={[
-        'Chamara Sandanayake.',
-        3000,
-        'DS Undergrad.',
-        3000,
+        'Chamara Srinath.',
+        4000,
+        //'An Undergraduate.',
+        //4000,
       ]}
       wrapper="span"
-      speed={20}
+      speed={15}
       className="text-accent"
       repeat={Infinity}
     />
