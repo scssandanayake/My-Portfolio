@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Social from "@/components/ui/Social";
 import Photo from "@/components/ui/Photo";
 import AnimatedText2 from "@/components/main/AnimatedText2";
-import Stats from "@/components/ui/stats";
+import Stats from "@/components/ui/Stats";
 
 const Home = () => {
   return (
